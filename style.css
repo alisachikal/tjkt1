@@ -1,0 +1,81 @@
+body {
+   font-family: Arial, sans-serif;
+   background: linear-gradient(135deg, #74b9ff, #acb6e5); /* Memperbaiki warna gradien */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+/* container form */
+.container {
+   width: 100%;
+   max-width: 350px;
+   background: #ffffff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.2);
+   text-align: center; /* Memperbaiki posisi properti */
+}
+
+h2 {
+   margin-bottom: 20px;
+   color: #333;
+}
+
+/* Input Group */
+.input-group {
+   margin-bottom: 15px;
+   text-align: left;
+}
+
+.input-group label {
+   display: block;
+   font-size: 14px;
+   color: #555;
+   margin-bottom: 5px;
+}
+
+.input-group input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 14px;
+}
+
+/* Tombol */
+.btn {
+   width: 100%;
+   padding: 10px;
+   background: #007bff;
+   border: none;
+   color: white;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 5px; /* Memperbaiki typo pada "border-radius" */
+   transition: 0.3s; /* Memperbaiki "Transition" menjadi "transition" */
+}
+
+.btn:hover {
+   background: #0056b3; /* Memperbaiki warna hover */
+}
+
+/* Tautan */
+p {
+   font-size: 14px;
+}
+
+p a {
+   color: #007bff;
+   text-decoration: none; /* Memperbaiki penulisan */
+}
+
+p a:hover {
+   text-decoration: underline;
+}
+
+.hidden {
+   display: none;
+}
